@@ -38,6 +38,7 @@ python -m geneva.inference.train @example_args/iclevr-d-subtract.args
  python -m geneva.inference.test @example_args/iclevr-d-subtract.args
  ```
  + [Trained Models](https://drive.google.com/drive/folders/1DvmEmqTaDjZA0Fea1MfW7A0Kz2fjf8g9?usp=sharing)
+     + Edit "--load_snapshot" in [args](sscr/example_args/iclevr-d-subtract.args)
 
 ## Resources
 + [GeNeVA](https://github.com/Maluuba/GeNeVA)
