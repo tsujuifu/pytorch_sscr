@@ -15,6 +15,11 @@ in Conference on Empirical Methods in Natural Language Processing (**EMNLP**) 20
 
 The iterative editor is a conditional generator that modifies an image based on current instruction and editing history. Counterfactual reasoning allows the model to think about the expected, resulting images under various counterfactual instructions. In this way, the editor can **consider more diverse instructions than the original data to improve the generalizability**, even if under data scarcity. With the help of this cross-task matching, we can **not only provide a detailed token-level training signal to train the editor better but also supply training loss for counterfactual reasoning in a selfsupervised scenario**.
 
+## Requirements
+This code is implemented under **Python3** and [PyTorch](https://pytorch.org). <br>
+Following libraries are also required:
++ [PyTorch](https://pytorch.org) >= 1.2
++ [Visdom](https://github.com/facebookresearch/visdom)
 
 ## Resources
 + [GeNeVA](https://github.com/Maluuba/GeNeVA)
