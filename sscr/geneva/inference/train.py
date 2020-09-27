@@ -271,8 +271,8 @@ if __name__ == '__main__':
     trainer = Trainer(cfg)
     
     # TRAIN
-    trainer.train() # GeNeVA only
-    # trainer.train_ctr() # train 
+    trainer.train() # train GeNeVA only
+    # trainer.train_ctr() # train E
     # trainer.train_with_ctr() # train w/ CTC
     
     # INFERENCE
