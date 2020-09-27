@@ -61,7 +61,7 @@ class ICLEVERDataset(Dataset):
 
         text = json.loads(text)
         
-        # do ssr by replacing token in text
+        # DO SSCR BY REPLACING TOKEN IN TEXT
 
         turns_tokenized = [t.split() for t in text]
         lengths = [len(t)+2 for t in turns_tokenized]
