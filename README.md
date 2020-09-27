@@ -24,6 +24,19 @@ Following libraries are also required:
 ## Usage
 
 + Dataset:<br>Follow [GeNeVA](https://github.com/Maluuba/GeNeVA_datasets/) or download pre-processed [here](https://drive.google.com/file/d/1EnZx0hqrsLAjYq4EdbHb-JJ_qE-Vgy8k/view?usp=sharing).
++ Run Vidsom
+```
+visdom
+```
++ [Train](sscr/geneva/inference/train.py)
+```
+python -m geneva.inference.train @example_args/iclevr-d-subtract.args
+```
++ [Test](sscr/geneva/inference/test.py)
+ ```
+ python -m geneva.inference.test @example_args/iclevr-d-subtract.args
+ ```
+ + [Trained Models](https://drive.google.com/drive/folders/1DvmEmqTaDjZA0Fea1MfW7A0Kz2fjf8g9?usp=sharing)
 
 ## Resources
 + [GeNeVA](https://github.com/Maluuba/GeNeVA)
