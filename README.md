@@ -21,6 +21,20 @@ Following libraries are also required:
 + [PyTorch](https://pytorch.org) >= 1.2
 + [Visdom](https://github.com/facebookresearch/visdom)
 
+## Usage
+
++ Dataset:<br>Follow [GeNeVA](https://github.com/Maluuba/GeNeVA_datasets/) or download pre-processed [here](https://drive.google.com/file/d/1EnZx0hqrsLAjYq4EdbHb-JJ_qE-Vgy8k/view?usp=sharing).
+
 ## Resources
 + [GeNeVA](https://github.com/Maluuba/GeNeVA)
 + [This project](https://drive.google.com/drive/folders/1DvmEmqTaDjZA0Fea1MfW7A0Kz2fjf8g9?usp=sharing)
+
+## Citation
+```
+@inproceedings{fu2020sscr, 
+  author = {Tsu-Jui Fu and Xin Eric Wang and Scott Grafton and Miguel Eckstein and William Yang Wang}, 
+  title = {SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning}, 
+  booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 
+  year = {2020} 
+}
+```
