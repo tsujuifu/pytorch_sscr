@@ -74,7 +74,7 @@ class CoDrawDataset(nn.Module):
         objects = example['objects'].value
         scene_id = example['scene_id'].value
         
-        # do ssr by replacing token in turns
+        # DO SSCR BY REPLACING TOKEN IN TEXT
 
         turns_tokenized = [t.split() for t in turns]
         lengths = [len(t)+2 for t in turns_tokenized]
