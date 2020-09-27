@@ -3,11 +3,18 @@ A **PyTorch** implementation of SSCR
 
 [Project](https://tsujuifu.github.io/projs/emnlp20_sscr.html) | [Paper](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf)
 
+<img src='imgs/result.png' width='85%' />
+
 ## Overview
 SSCR is an implementation of <br> 
 "[SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf)" <br>
 [Tsu-Jui Fu](https://tsujuifu.github.io/), [Xin Eric Wang](https://eric-xw.github.io/), [Scott Grafton](https://labs.psych.ucsb.edu/grafton/scott/), [Miguel Eckstein](https://viu.psych.ucsb.edu/), and [William Yang Wang](https://sites.cs.ucsb.edu/~william/) <br>
 in Conference on Empirical Methods in Natural Language Processing (**EMNLP**) 2020 (long)
+
+<img src='imgs/overview.png' width='80%' />
+
+The iterative editor is a conditional generator that modifies an image based on current instruction and editing history. Counterfactual reasoning allows the model to think about the expected, resulting images under various counterfactual instructions. In this way, the editor can **consider more diverse instructions than the original data to improve the generalizability**, even if under data scarcity. With the help of this cross-task matching, we can **not only provide a detailed token-level training signal to train the editor better but also supply training loss for counterfactual reasoning in a selfsupervised scenario**.
+
 
 ## Resources
 + [GeNeVA](https://github.com/Maluuba/GeNeVA)
