@@ -1,7 +1,7 @@
 # [EMNLP'20 (long)] SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning
 A **PyTorch** implementation of SSCR
 
-[Project](https://tsujuifu.github.io/projs/emnlp20_sscr.html) | [Paper](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf)
+[Paper](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf) | [Slide](https://tsujuifu.github.io/slides/emnlp20_sscr.pdf)
 
 <img src='imgs/animation.gif' width='60%' />
 
