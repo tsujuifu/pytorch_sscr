@@ -22,7 +22,6 @@ Following libraries are also required:
 + [Visdom](https://github.com/facebookresearch/visdom)
 
 ## Usage
-
 + Dataset:
     + Follow [GeNeVA](https://github.com/Maluuba/GeNeVA_datasets/) or download pre-processed [here](https://drive.google.com/file/d/1EnZx0hqrsLAjYq4EdbHb-JJ_qE-Vgy8k/view?usp=sharing).
 + Run Vidsom
