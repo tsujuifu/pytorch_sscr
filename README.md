@@ -18,7 +18,7 @@ The iterative editor is a conditional generator that modifies an image based on 
 ## Requirements
 This code is implemented under **Python3** and [PyTorch](https://pytorch.org). <br>
 Following libraries are also required:
-+ [PyTorch](https://pytorch.org) >= 1.2
++ [PyTorch](https://pytorch.org)>=1.2
 + [Visdom](https://github.com/facebookresearch/visdom)
 
 ## Usage
