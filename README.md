@@ -47,7 +47,7 @@ python -m geneva.inference.train @example_args/iclevr-d-subtract.args
 ```
 @inproceedings{fu2020sscr, 
   author = {Tsu-Jui Fu and Xin Eric Wang and Scott Grafton and Miguel Eckstein and William Yang Wang}, 
-  title = {SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning}, 
+  title = {{SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning}}, 
   booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 
   year = {2020} 
 }
