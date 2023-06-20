@@ -3,7 +3,7 @@ A **PyTorch** implementation of SSCR
 
 [Paper](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf) | [Slide](https://tsujuifu.github.io/slides/emnlp20_sscr.pdf)
 
-<img src='imgs/animation.gif' width='60%' />
+<img src='imgs/result.png' width='70%' />
 
 ## Overview
 SSCR is an implementation of <br> 
