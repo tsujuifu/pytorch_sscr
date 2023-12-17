@@ -8,7 +8,7 @@ A **PyTorch** implementation of SSCR
 ## Overview
 SSCR is an implementation of <br> 
 "[SSCR: Iterative Language-Based Image Editing via Self-Supervised Counterfactual Reasoning](https://tsujuifu.github.io/pubs/emnlp20_sscr.pdf)" <br>
-[Tsu-Jui Fu](https://tsujuifu.github.io/), [Xin Eric Wang](https://eric-xw.github.io/), [Scott Grafton](https://labs.psych.ucsb.edu/grafton/scott/), [Miguel Eckstein](https://viu.psych.ucsb.edu/), and [William Yang Wang](https://sites.cs.ucsb.edu/~william/) <br>
+[Tsu-Jui Fu](https://scholar.google.com/citations?user=7QRDcC0AAAAJ), [Xin Eric Wang](https://scholar.google.com/citations?user=YjqluE0AAAAJ), [Scott Grafton](https://scholar.google.com/citations?user=7yJze9oAAAAJ), [Miguel Eckstein](https://scholar.google.com/citations?user=G5dQztgAAAAJ), and [William Yang Wang](https://scholar.google.com/citations?user=gf8Ms_8AAAAJ) <br>
 in Conference on Empirical Methods in Natural Language Processing (**EMNLP**) 2020 (Long)
 
 <img src='imgs/overview.png' width='80%' />
